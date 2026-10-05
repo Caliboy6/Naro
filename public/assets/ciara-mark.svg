@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-labelledby="ciara-title ciara-desc">
+  <title id="ciara-title">Ciara</title>
+  <desc id="ciara-desc">An open, angular C frames three selected strategy layers.</desc>
+  <!-- The 45-degree frame stays legible at small sizes. No background tile. -->
+  <path d="M53 8H24L8 24V40L24 56H53V46H28L18 36V28L28 18H53V8Z" fill="#E9EFEA"/>
+  <!-- Three independent planes: curate, structure, select. -->
+  <path d="M43 20L58 27L43 34L28 27L43 20Z" fill="#E2CEA4"/>
+  <path d="M28 32L43 39L58 32V38L43 45L28 38V32Z" fill="#9F8257"/>
+  <path d="M28 27L43 34L58 27V33L43 40L28 33V27Z" fill="#C5AA7C"/>
+</svg>

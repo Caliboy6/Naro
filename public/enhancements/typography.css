@@ -1,0 +1,55 @@
+/* One shared typeface for every page, chart, label and interaction. */
+@font-face{
+ font-family:"Inter";
+ src:url("/assets/fonts/InterVariable.woff2") format("woff2");
+ font-style:normal;
+ font-weight:100 900;
+ font-display:swap;
+}
+:root{
+ --naro-font-ui:"Inter",sans-serif;
+ --font-sans:var(--naro-font-ui);
+ --font-display:var(--naro-font-ui);
+ --font-mono:var(--naro-font-ui);
+ --default-font-family:var(--naro-font-ui);
+ --default-mono-font-family:var(--naro-font-ui);
+ --rk-fonts-body:var(--naro-font-ui);
+}
+html:root body,
+html:root body *,
+html:root body *::before,
+html:root body *::after{
+ font-family:var(--naro-font-ui)!important;
+ font-optical-sizing:auto;
+}
+body{
+ -webkit-font-smoothing:antialiased;
+ text-rendering:optimizeLegibility;
+}
+/* Numbers align without introducing an additional monospace typeface. */
+input,
+.metric-rail strong,
+.vault-card-metrics strong,
+.vd-apy,
+.vd-count,
+.ethvp-hero-apy,
+.ethvp-summary-row,
+.ethvp-facts,
+.ethvp-amount,
+.naro-trace-fields dd,
+.naro-trace-playback-stage,
+.naroflow-number,
+svg text,
+.font-mono{
+ font-variant-numeric:tabular-nums;
+}
+/* The old APY labels used a heavy monospace shorthand. */
+.ethvp-hero-apy>span,
+.ethvp-summary-row>div>span,
+.ethvp-facts span{
+ font-weight:500;
+ letter-spacing:.055em;
+}
+h1 em,h2 em,h3 em{
+ font-style:normal;
+}

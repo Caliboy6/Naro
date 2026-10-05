@@ -1,0 +1,9 @@
+/* Keep the existing FAQ layout/type; scope only paragraph blocks and interaction. */
+.btcvc-product-faq-original{display:none!important}
+.btcvc-product-faq-list .btcvc-product-faq-answer{overflow:hidden;box-sizing:border-box}
+.btcvc-product-faq-list .btcvc-product-faq-answer[hidden]{display:none}
+.btcvc-product-faq-list .btcvc-product-faq-paragraph{display:block}
+.btcvc-product-faq-list .btcvc-product-faq-paragraph+.btcvc-product-faq-paragraph{margin-top:12px}
+.btcvc-product-faq-list .btcvc-product-faq-button:focus-visible{outline:2px solid var(--accent-hi,#8edbc0);outline-offset:-3px;border-radius:2px}
+.btcvc-product-faq-list .btcvc-product-faq-icon{min-width:18px;text-align:center}
+@media(prefers-reduced-motion:reduce){.btcvc-product-faq-list .btcvc-product-faq-answer{animation:none!important;transition:none!important}}

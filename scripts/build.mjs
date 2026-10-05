@@ -1,0 +1,12 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { spawnSync } from 'node:child_process';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const check=spawnSync(process.execPath,[path.join(root,'scripts/check.mjs')],{stdio:'inherit'});
+if(check.status!==0)process.exit(check.status||1);
+const destination=path.resolve(root,'dist');
+if(path.dirname(destination)!==root||path.basename(destination)!=='dist')throw new Error('Unexpected build destination');
+fs.rmSync(destination,{recursive:true,force:true});
+fs.cpSync(path.join(root,'public'),destination,{recursive:true});
+console.log('Build ready: dist/ (static files, no server-side API implementation)');

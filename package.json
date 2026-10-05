@@ -1,0 +1,16 @@
+{
+  "name": "naro-vault-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Complete NARO public frontend, assets and editable motion modules",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node scripts/serve.mjs --dir public",
+    "start": "node scripts/serve.mjs --dir dist",
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs"
+  }
+}

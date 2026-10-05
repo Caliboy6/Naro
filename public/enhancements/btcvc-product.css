@@ -1,0 +1,60 @@
+/* Scoped to the separate BTCvc proposal. Existing hero and activity styles stay intact. */
+.btcvc-product-restored-chart>div:first-child>div:first-child{flex-wrap:wrap}
+.btcvc-product-series-tag{font-size:8px;letter-spacing:.04em;color:#a5b8a9;border:1px solid #3e584780;border-radius:4px;padding:3px 5px;line-height:1.4}
+.btcvc-product-series-note{font-size:10px;line-height:1.7;color:#859b8c;margin:9px 0 0}
+.btcvc-product-control h3{color:#a5b2aa!important}.btcvc-product-control .naro-dot,.btcvc-product-monitor .naro-dot{background:#819087!important;box-shadow:none!important;animation:none!important}
+.btcvc-product-control[data-control=active] h3{color:#a4e5c9!important}.btcvc-product-control[data-control=active] .naro-dot{background:#73d2a7!important}
+.btcvc-product-control[data-control=stale] h3{color:#d9bf8a!important}.btcvc-product-control[data-control=stale] .naro-dot{background:#d9bf8a!important}
+.btcvc-product-page .agent-proposal>b{font-size:12px;line-height:1.65}.btcvc-product-veta-step{color:#a5b2aa!important;border-color:#3d4943!important;background:#ffffff03!important}
+.btcvc-product-form{overflow:hidden;min-width:0}
+.btcvc-product-form button{font-family:inherit;cursor:pointer}
+.btcvc-product-tabs{display:flex;gap:20px;border-bottom:1px solid #28342d;margin:-1px 0 20px}
+.btcvc-product-tabs button{border:0;border-bottom:2px solid transparent;background:none;padding:7px 0 12px;font-size:18px;font-weight:700;color:#87938d}
+.btcvc-product-tabs button[aria-selected=true]{color:#edf0ec;border-color:#15915e}
+.btcvc-product-account-marker{margin-left:auto;align-self:center;font-size:8px;color:#b5c39d;letter-spacing:.04em;border:1px solid #68745255;padding:4px 5px;border-radius:4px}
+.btcvc-product-input-card{border:1px solid #243029;background:#0b1013;border-radius:12px;padding:14px;min-width:0}
+.btcvc-product-card-label{display:flex;justify-content:space-between;gap:8px;color:#95a19a;font-size:12px;line-height:1.5;margin-bottom:9px}
+.btcvc-product-card-label>span:last-child{font-size:11px}
+.btcvc-product-token-line{display:flex;align-items:center;gap:12px;min-width:0}
+.btcvc-product-token{display:inline-flex;align-items:center;gap:7px;background:#1c2425;border-radius:8px;padding:7px 9px;font-size:14px;font-weight:700;flex:none}
+.btcvc-product-token img{width:20px;height:20px}
+.btcvc-product-token-line input{flex:1;width:0;min-width:0;border:0;outline-offset:4px;background:none;font-size:24px;text-align:right;color:#f0f2ed;font-variant-numeric:tabular-nums;padding:3px 0}
+.btcvc-product-token-line input::-webkit-inner-spin-button{appearance:none}.btcvc-product-output{margin-left:auto;font-size:24px;color:#84938a}
+.btcvc-product-input-meta{display:flex;justify-content:space-between;gap:7px;flex-wrap:wrap;color:#88968d;font-size:11px;line-height:1.7;margin-top:10px}
+.btcvc-product-input-meta button{border:0;background:none;font-size:11px;padding:0 0 0 4px;font-weight:700;color:#8edbc0}
+.btcvc-product-wallet{display:flex;align-items:center;justify-content:space-between;gap:5px;width:100%;border:0;border-top:1px solid #263129;background:none;color:#b9c8bf;font-size:11px;text-align:left;padding:12px 0 0;margin-top:12px}
+.btcvc-product-direction{text-align:center;font-size:20px;color:#83928a;height:24px;line-height:23px}
+.btcvc-product-address{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;margin:18px 0 15px}
+.btcvc-product-address label{font-size:12px;color:#bbc6be;font-weight:500}
+.btcvc-product-address button{border:1px solid #314239;background:#0b1210;color:#b3c4b9;border-radius:6px;padding:4px 7px;font-size:10px;max-width:100%}
+.btcvc-product-address input{width:100%;min-width:0;background:#0b1013;border:1px solid #2c3b32;border-radius:8px;padding:12px 10px;font-size:12px;color:#d6e3da;box-sizing:border-box}
+.btcvc-product-primary{width:100%;padding:13px 12px;border:0;border-radius:9px;background:#15915e;color:#fff;font-size:14px;font-weight:700;transition:background .16s ease}
+.btcvc-product-primary:hover{background:#20a270}
+.btcvc-product-deposit-notice{font-size:11px;line-height:1.75;padding:12px;border-radius:8px;border:1px solid #5c542f;background:#30281144;color:#d6c18d;margin-top:16px}
+.btcvc-product-field-error,.btcvc-product-form-error{color:#f3a994;font-size:12px;line-height:1.6;margin:8px 0 12px}
+.btcvc-product-form-error{padding:10px 12px;border:1px solid #a66c4b44;border-radius:8px;background:#3e281b22}
+.btcvc-product-balances{margin:0 0 15px;padding-bottom:15px;border-bottom:1px solid #293b30}
+.btcvc-product-balances>div{display:flex;justify-content:space-between;gap:8px;font-size:12px;line-height:1.6;margin-bottom:7px}
+.btcvc-product-balances dt{color:#96a69b}.btcvc-product-balances dd{margin:0;color:#dbe8de;font-weight:600;font-variant-numeric:tabular-nums}.btcvc-product-balances>div:nth-child(3) dd{color:#8edbc0}
+.btcvc-product-next-unlock{display:grid;grid-template-columns:1fr auto;gap:6px;font-size:11px;border:1px solid #314636;background:#13251a55;padding:11px;border-radius:8px;margin-bottom:18px;color:#adc0b0}
+.btcvc-product-next-unlock strong{font-size:11px;color:#d8e4d8;font-weight:600}.btcvc-product-next-unlock time{grid-column:1/-1;color:#91a694}
+.btcvc-product-processing{font-size:11px;color:#93a497;line-height:1.8;margin:15px 0 0}.btcvc-product-result{margin-top:16px;padding:14px;border:1px solid #5c746447;color:#c0dccb;border-radius:8px;font-size:13px}
+.btcvc-product-dialog{background:linear-gradient(150deg,#14241c,#0c1310 52%);color:#edf0eb;border:1px solid #45604f;border-radius:18px;width:min(570px,calc(100vw - 32px));max-height:calc(100dvh - 48px);margin:auto;padding:30px;box-sizing:border-box;box-shadow:0 30px 110px #000a;overflow:auto;animation:btcvc-product-dialog-in .22s ease}
+.btcvc-product-dialog::backdrop{background:#030805c9;backdrop-filter:blur(8px)}
+.btcvc-product-dialog-head{display:flex;align-items:center;justify-content:space-between;gap:20px;color:#8fbd9f;font-size:11px;letter-spacing:.12em}
+.btcvc-product-dialog-head button{background:none;border:0;color:#d1ddcf;font-size:26px;padding:0;cursor:pointer}
+.btcvc-product-dialog h2{font-size:28px;line-height:1.2;letter-spacing:-.04em;font-weight:600;margin:16px 0 10px}
+.btcvc-product-dialog-intro{font-size:13px;color:#9bb3a4;line-height:1.75;margin:0 0 18px}
+.btcvc-product-example-label{padding:8px 10px;border:1px solid #60694b88;border-radius:6px;color:#c2c9a5;background:#4f4a2422;font-size:9px;letter-spacing:.06em}
+.btcvc-product-dialog dl{margin:16px 0}
+.btcvc-product-dialog dl>div{display:grid;grid-template-columns:145px 1fr;gap:16px;padding:12px 0;border-bottom:1px solid #2b3c31;font-size:13px;line-height:1.7}
+.btcvc-product-dialog dt{color:#8ea99a}.btcvc-product-dialog dd{margin:0;overflow-wrap:anywhere;color:#e1e8df}
+.btcvc-product-reward-note{color:#c2d7ca;font-size:12px;line-height:1.85;padding:14px;border:1px solid #3e675155;border-radius:8px;background:#23402b44}
+.btcvc-product-quote-notice{color:#b6ba9f;font-size:11px;line-height:1.7;margin:18px 0}
+.btcvc-product-dialog-actions{display:flex;justify-content:flex-end;gap:10px}
+.btcvc-product-dialog-actions button{border:1px solid #466050;background:#1a2b21;color:#d6e2d8;border-radius:8px;padding:10px 20px;font-size:13px;line-height:1.4;font-weight:600;cursor:pointer}
+.btcvc-product-dialog-actions button:disabled{color:#8b9d8e;background:#20352866;cursor:not-allowed}
+.btcvc-product-footer-links{gap:14px!important;flex-wrap:wrap;justify-content:center}.btcvc-product-unavailable-link{color:#8f9d93;font-size:11px;cursor:help}
+
+@media(max-width:640px){.btcvc-product-dialog{padding:20px}.btcvc-product-dialog h2{font-size:25px}.btcvc-product-dialog dl>div{grid-template-columns:1fr;gap:5px;padding:10px 0}}
+@media(prefers-reduced-motion:reduce){.btcvc-product-dialog{animation:none}}

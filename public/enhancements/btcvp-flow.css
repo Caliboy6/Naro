@@ -1,0 +1,51 @@
+/* Four roles grounded in BTCvp's published operating description. */
+.naro-protocol-section .naroflow-btcvp{font-family:"Segoe UI",Arial,sans-serif;padding:27px;container-type:inline-size}
+.naroflow-btcvp .naroflow-header{margin-bottom:23px;align-items:center}
+.naro-protocol-section .naroflow-btcvp .naroflow-eyebrow{font-family:inherit;font-size:11px;font-weight:500;letter-spacing:.08em;color:#8eaf9c}
+.naro-protocol-section .naroflow-btcvp h3{font-size:25px;font-weight:500;letter-spacing:-.035em;margin-top:8px}
+.naro-protocol-section .naroflow-btcvp .naroflow-action{font-family:inherit;font-size:12px!important;gap:7px;padding:8px 11px;min-height:36px}
+.naroflow-btcvp .naroflow-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}
+.naroflow-btcvp .naroflow-node[data-step]{grid-area:auto}
+.naro-protocol-section .naroflow-btcvp .naroflow-node{font-family:inherit;display:flex;align-items:flex-start;min-height:280px;padding:22px 21px 18px;border-radius:8px;background:linear-gradient(155deg,#173c2952,#0b1e14);border-color:#8edbc022;box-shadow:inset 0 1px 0 #d9ffeb05;transition:border-color .35s,background .35s,box-shadow .35s,transform .25s}
+.naro-protocol-section .naroflow-btcvp .naroflow-node.is-current{border-color:#8edbc078;background:linear-gradient(155deg,#245b3e80,#123321);box-shadow:0 0 28px #53ce950a,inset 0 0 22px #b4f5c908}
+.naroflow-btcvp .naroflow-node-top{margin-bottom:20px}
+.naroflow-btcvp .naroflow-icon{width:46px;height:46px;border-radius:10px;background:#2b533229;border-color:#a8dbbc2c;overflow:hidden}
+.naroflow-btcvp .naroflow-icon>svg:not(.veta-mark){width:24px;height:24px}
+.naroflow-btcvp .naroflow-icon .veta-mark.veta-mark{--veta-scale:.6}
+.naroflow-btcvp .naroflow-icon>img{width:32px;height:32px;object-fit:contain}
+.naroflow-btcvp .naroflow-icon .naro-symbol-window{transform:scale(.78);transform-origin:center;width:36px;height:43px;flex-shrink:0}
+.naroflow-btcvp .naroflow-number{font-family:Consolas,monospace;font-size:12px;color:#789c85}
+.naro-protocol-section .naroflow-btcvp .naroflow-node-title{font-family:inherit;font-size:17px;font-weight:500;letter-spacing:-.02em;line-height:1.45;min-height:25px;color:#e2f0e7}
+.naro-protocol-section .naroflow-btcvp .naroflow-node-summary{font-family:inherit;font-size:15px;font-weight:400;line-height:1.55;min-height:48px;color:#a1baa9;margin-top:10px}
+.naro-protocol-section .naroflow-btcvp .naroflow-node-field{font-family:inherit;font-size:12px;line-height:1.55;gap:6px;margin-top:16px;padding-top:15px;color:#809f8c}
+.naro-protocol-section .naroflow-btcvp .naroflow-node-field>span:last-child{font-size:13px;color:#bed5c6}
+.naro-protocol-section .naroflow-btcvp .naroflow-node-status{font-family:inherit;font-size:12px;line-height:1.5;margin-top:18px;color:#85b89b}
+.naroflow-btcvp .naroflow-node[data-step="0"] .naroflow-icon{color:#dcc69b;background:#5945291c;border-color:#ceb5872b}
+.naro-protocol-section .naroflow-btcvp .naroflow-node.is-blocked{border-color:#d69c745e;background:linear-gradient(150deg,#46301e50,#251e162f)}
+.naroflow-btcvp .naroflow-node.is-blocked .naroflow-node-status{color:#e4b290}
+.naro-protocol-section .naroflow-btcvp .naroflow-node.is-withheld{border-color:#be93703c;background:linear-gradient(150deg,#34271930,#151d132f)}
+.naroflow-btcvp .naroflow-node.is-withheld .naroflow-node-status{color:#cca58b}
+.naroflow-btcvp .naroflow-node.is-blocked .naroflow-status-dot,.naroflow-btcvp .naroflow-node.is-withheld .naroflow-status-dot{width:4px;height:4px;border:0;transform:none;border-radius:50%;background:#d2a180;animation:none}
+.naroflow-btcvp .naroflow-node.is-withheld .naroflow-icon{opacity:.5}
+.naroflow-btcvp .naroflow-node.is-withheld .naroflow-progress{display:none}
+.naroflow-btcvp .naroflow-scenarios{display:flex;width:fit-content;gap:4px;padding:4px;background:#08160e60;border-color:#9bd5b626;border-radius:8px;margin:0 0 26px}
+.site-shell .naroflow-btcvp .naroflow-scenario{font-family:inherit;font-size:12px!important;font-weight:400;line-height:1.5;padding:8px 15px;white-space:nowrap;color:#8aaa96}
+.site-shell .naroflow-btcvp .naroflow-scenario.is-selected{color:#c5efd8;background:#284b334d}
+.naroflow-btcvp[data-workflow-scenario="outside"] .naroflow-scenario.is-selected{color:#e7c1a5;background:#5a3c2738}
+.naro-protocol-section .naroflow-btcvp .naroflow-detail{grid-template-columns:.78fr 2.6fr;gap:24px;margin-top:24px;min-height:109px;padding:20px 2px;border-top:1px solid #8edbc018;border-bottom:1px solid #8edbc020}
+.naro-protocol-section .naroflow-btcvp .naroflow-detail-index{font-family:inherit;font-size:11px;font-weight:500;letter-spacing:.03em;color:#a3d5b8;line-height:1.65}
+.naro-protocol-section .naroflow-btcvp .naroflow-detail p{font-family:inherit;font-size:15px;font-weight:400;line-height:1.7;color:#a9c3b3;margin:0;max-width:920px}
+.naro-protocol-section .naroflow-btcvp .naroflow-footer{font-family:inherit;font-size:11px;line-height:1.6;color:#729480;padding-top:18px;gap:18px;flex-wrap:wrap}
+.naroflow-btcvp .naroflow-source-note,.naroflow-btcvp .naroflow-source{font-family:inherit;font-size:11px;line-height:1.6;color:#789886}
+.naroflow-btcvp .naroflow-source-note{margin-top:13px;display:flex;gap:8px 20px;align-items:center;flex-wrap:wrap}
+.naroflow-btcvp .naroflow-source-note a,.naroflow-btcvp .naroflow-footer a,.naroflow-btcvp .naroflow-source a{color:#a1cbb4;text-decoration:none;border-bottom:1px solid #a1cbb425}
+.naroflow-btcvp .naroflow-source-note a:hover,.naroflow-btcvp .naroflow-footer a:hover,.naroflow-btcvp .naroflow-source a:hover{color:#d2f5df;border-color:#a1cbb479}
+.naroflow-btcvp .naroflow-connection.is-inactive .naroflow-connection-track{stroke:#7a8d7936}.naroflow-btcvp .naroflow-connection.is-withheld .naroflow-connection-track{stroke:#9e805d38}.naroflow-btcvp .naroflow-connection.is-inactive .naroflow-connection-pulse{display:none}
+.naroflow-btcvp.is-workflow-complete .naroflow-progress{animation:none}
+.naroflow-btcvp.is-workflow-complete [data-action="pause"]{visibility:hidden}
+@container(max-width:980px){.naroflow-btcvp .naroflow-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.naroflow-btcvp .naroflow-node[data-step="0"]{grid-area:1/1}.naroflow-btcvp .naroflow-node[data-step="1"]{grid-area:1/2}.naroflow-btcvp .naroflow-node[data-step="2"]{grid-area:2/2}.naroflow-btcvp .naroflow-node[data-step="3"]{grid-area:2/1}.naro-protocol-section .naroflow-btcvp .naroflow-node{min-height:270px}.naro-protocol-section .naroflow-btcvp .naroflow-node-title{min-height:0}.naro-protocol-section .naroflow-btcvp .naroflow-node-summary{min-height:48px}.naro-protocol-section .naroflow-btcvp .naroflow-detail{grid-template-columns:1fr;gap:9px;min-height:130px}}
+@container(max-width:470px){.naroflow-btcvp .naroflow-grid{gap:18px}.naro-protocol-section .naroflow-btcvp .naroflow-node{padding:16px 12px;min-height:280px}.naro-protocol-section .naroflow-btcvp .naroflow-node-title{font-size:14px;line-height:1.4;min-height:40px}.naro-protocol-section .naroflow-btcvp .naroflow-node-summary{font-size:13px;min-height:62px;line-height:1.55;margin-top:8px}.naro-protocol-section .naroflow-btcvp .naroflow-node-field{font-size:11px;gap:4px;margin-top:12px;padding-top:12px}.naro-protocol-section .naroflow-btcvp .naroflow-node-field>span:last-child{font-size:12px}.naro-protocol-section .naroflow-btcvp .naroflow-node-status{font-size:11px;margin-top:15px}.naroflow-btcvp .naroflow-node-top{margin-bottom:16px}.naroflow-btcvp .naroflow-icon{width:39px;height:39px;border-radius:8px}.naroflow-btcvp .naroflow-icon>img{width:28px;height:28px}.naroflow-btcvp .naroflow-icon .veta-mark.veta-mark{--veta-scale:.5}.naroflow-btcvp .naroflow-icon .naro-symbol-window{transform:scale(.68)}.naroflow-btcvp .naroflow-number{font-size:11px}.naro-protocol-section .naroflow-btcvp .naroflow-detail p{font-size:14px;line-height:1.7}.naro-protocol-section .naroflow-btcvp .naroflow-detail{min-height:185px}.naro-protocol-section .naroflow-btcvp .naroflow-footer{font-size:11px;line-height:1.6;gap:7px}.naro-protocol-section .naroflow-btcvp .naroflow-eyebrow{font-size:10px;letter-spacing:.035em}.naro-protocol-section .naroflow-btcvp h3{font-size:20px}.site-shell .naroflow-btcvp .naroflow-scenario{font-size:11px!important;padding:7px 11px}.naroflow-btcvp .naroflow-header{gap:10px;align-items:flex-start}}
+@container(max-width:290px){.naroflow-btcvp .naroflow-grid{grid-template-columns:1fr}.naroflow-btcvp .naroflow-node[data-step]{grid-area:auto}.naro-protocol-section .naroflow-btcvp .naroflow-node{min-height:255px}.naro-protocol-section .naroflow-btcvp .naroflow-node-title,.naro-protocol-section .naroflow-btcvp .naroflow-node-summary{min-height:0}.naroflow-btcvp .naroflow-header{display:block}.naroflow-btcvp .naroflow-actions{margin-top:13px}}
+@media(max-width:760px){.naro-protocol-section .naroflow-btcvp{padding:18px}.naro-protocol-heading p{max-width:560px}.naro-protocol-section .naroflow-btcvp .naroflow-actions .naroflow-action{width:31px;padding:6px}.naro-protocol-section .naroflow-btcvp .naroflow-actions .naroflow-action>span{display:none}}
+@media(max-width:420px){.naro-protocol-section .naroflow-btcvp{padding:16px}}
+@media(prefers-reduced-motion:reduce){.naroflow-btcvp .naroflow-progress{animation:none!important;transform:scaleX(1)}.naroflow-btcvp .naroflow-actions{display:none}}

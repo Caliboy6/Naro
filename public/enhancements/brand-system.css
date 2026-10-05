@@ -1,0 +1,12 @@
+/* SVG viewports and the browser alpha filter preserve the supplied VETA pixels. */
+.veta-logo.veta-logo,.veta-mark.veta-mark{--veta-scale:.8;display:inline-block;flex:none;overflow:hidden;vertical-align:middle;width:calc(148px * var(--veta-scale));height:calc(42px * var(--veta-scale));line-height:0;pointer-events:none}
+.veta-mark.veta-mark{width:calc(38px * var(--veta-scale))}
+.stack-icon.partner-brand{height:52px;background:transparent!important;border:0!important;width:128px;place-items:start;align-items:center}
+.stack-icon.partner-brand .veta-logo{--veta-scale:.82}
+.stack-icon.partner-brand .ciara-mark{width:48px;height:48px;object-fit:contain;display:block}
+.metric-rail strong .veta-logo{--veta-scale:.68}
+.verified-chip .veta-mark,.vd-verified .veta-mark{--veta-scale:.4}
+.verified-chip,.vd-verified{gap:7px!important;line-height:1.35!important}
+.naro-core-scene__boundary .veta-logo{--veta-scale:.64;display:block;margin-left:auto;margin-bottom:6px}
+.naroflow-gate-boundary .veta-logo{--veta-scale:.64;margin-bottom:4px}
+.naroflow-gate-boundary .naroflow-node-title{max-width:100%}
